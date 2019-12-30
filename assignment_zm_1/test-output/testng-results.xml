@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ZestMoney" duration-ms="130595" started-at="2019-12-30T05:18:39Z" finished-at="2019-12-30T05:20:50Z">
+    <groups>
+    </groups>
+    <test name="Comparison" duration-ms="130595" started-at="2019-12-30T05:18:39Z" finished-at="2019-12-30T05:20:50Z">
+      <class name="com.Tests.HomePageTest">
+        <test-method status="PASS" signature="test()[pri:1, instance:com.Tests.HomePageTest@704a52ec]" name="test" duration-ms="89727" started-at="2019-12-30T05:18:39Z" finished-at="2019-12-30T05:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="ftest()[pri:0, instance:com.Tests.HomePageTest@704a52ec]" name="ftest" duration-ms="40768" started-at="2019-12-30T05:20:09Z" depends-on-methods="com.Tests.HomePageTest.test" finished-at="2019-12-30T05:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ftest -->
+        <test-method status="PASS" signature="bcompare()[pri:0, instance:com.Tests.HomePageTest@704a52ec]" name="bcompare" is-config="true" duration-ms="30" started-at="2019-12-30T05:20:50Z" finished-at="2019-12-30T05:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcompare -->
+      </class> <!-- com.Tests.HomePageTest -->
+    </test> <!-- Comparison -->
+  </suite> <!-- ZestMoney -->
+</testng-results>

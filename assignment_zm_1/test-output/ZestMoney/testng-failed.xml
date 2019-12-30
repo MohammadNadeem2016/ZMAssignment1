@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ZestMoney]">
+  <test thread-count="5" name="Comparison(failed)">
+    <classes>
+      <class name="com.Tests.HomePageTest">
+        <methods>
+          <include name="test"/>
+          <include name="ftest"/>
+          <include name="bcompare"/>
+        </methods>
+      </class> <!-- com.Tests.HomePageTest -->
+    </classes>
+  </test> <!-- Comparison(failed) -->
+</suite> <!-- Failed suite [ZestMoney] -->
